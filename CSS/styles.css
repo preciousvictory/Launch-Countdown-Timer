@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+:root {
+    /* Primary */
+    --Grayish_blue: hsl(237, 18%, 59%);
+    --Soft_red: hsl(345, 95%, 68%);
+
+    /* Neutral */
+    --Dark_desaturated_blue: hsl(236, 21%, 26%);
+    --Very_dark_blue: hsl(235, 16%, 14%);
+    --dark_mostly-black_blue: hsl(234, 17%, 12%);
+}
+
+
+
+/* General Styles 
+******************************************/
+
+@media screen and (max-width: 375px) {
+    
+}
