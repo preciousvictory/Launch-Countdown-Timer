@@ -45,7 +45,6 @@ Users should be able to:
 - Flexbox
 - Javascript
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 <!-- 
 ### What I learned
 
@@ -71,12 +70,12 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.-->
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
+- [Example resource 1](https://www.w3schools.com/cssref/css3_pr_background.php) - This helped me to  understand on how add a back. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://blog.avada.io/css/card-hover-effects), [](https://www.w3schools.com/howto/howto_css_flip_card.asp)- This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 

@@ -13,14 +13,110 @@
     /* Neutral */
     --Dark_desaturated_blue: hsl(236, 21%, 26%);
     --Very_dark_blue: hsl(235, 16%, 14%);
-    --dark_mostly-black_blue: hsl(234, 17%, 12%);
+    --dark_mostly-black_blue: hsl(250.91, 15.49%, 13.92%); /* hsl(234, 17%, 12%) */
 }
-
-
+/*  */
 
 /* General Styles 
 ******************************************/
+body {
+    background-color: var(--dark_mostly-black_blue);
 
+}
+
+
+/* Header Styles 
+******************************************/
+header {
+    height: 70vh;
+    background-image: url(../images/bg-stars.svg);
+    background: no-repeat cover center bottom border-box;
+}
+
+h2 {
+    color: white;
+    padding: 70px 0;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+
+/* Main Styles 
+******************************************/
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 10px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box h3 {
+    color: var(--Soft_red);
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.box p {
+    color: var(--Grayish_blue);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.timer {
+    background: var(--Dark_desaturated_blue);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+/* footer Styles 
+******************************************/
+footer {
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    bottom: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    justify-content: flex-end;
+    
+    background: url(../images/pattern-hills.svg) no-repeat center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.fa-brands {
+    color: var(--Grayish_blue);
+}
+
+.fa-brands:hover, .fa-brands:focus {
+    color: var(--Soft_red);
+}
+
+
+/* Mobile View
+******************************************/
 @media screen and (max-width: 375px) {
     
 }

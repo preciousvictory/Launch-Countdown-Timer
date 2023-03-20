@@ -6,30 +6,68 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/c0015e846f.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="CSS/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Launch countdown timer</title>
 
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; padding: 10px 0;}
     .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a:hover { color: var(--Soft_red); }
   </style>
 </head>
 <body>
+  <header>
+    <h2>We're launching soon</h2>
 
-  We're launching soon
+    <main>
+      <div class="days box">
+        <div class="timer">
+          <h3 class="a">08</h3>
+        </div>
+        <p>Days</p>
+      </div>
+  
+      <div class="hours box">
+        <div class="timer">
+          <h3 class="b">23</h3>
+        </div>
+        <p>Hours</p>
+      </div>
+  
+      <div class="Minutes box">
+        <div class="timer">
+          <h3 class="c">55</h3>
+        </div>
+        <p>Minutes</p>
+      </div>
+  
+      <div class="seconds box">
+        <div class="timer">
+          <h3 class="d">41</h3>
+        </div>
+        <p>Seconds</p>
+      </div>
+    </main>
+  </header>
+  
+  <footer>
+    <div class="icons">
+      <i class="fa-brands fa-square-facebook fa-xl"></i>
+      <i class="fa-brands fa-square-instagram fa-xl"></i>
+      <i class="fa-brands fa-square-pinterest fa-xl"></i>
+      <!-- <img src="images/icon-facebook.svg" alt="facebook Icon" class="facebook">
+      <img src="images/icon-instagram.svg" alt="instagram Icon" class="instagram">
+      <img src="images/icon-pinterest.svg" alt="pinterest Icon" class="pinterest"> -->
+    </div>
 
-  Days
-  Hours
-  Minutes
-  Seconds
-  
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Abiodun-Omoniyi Victory</a>.
-  </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Abiodun-Omoniyi Victory</a>.
+    </div>
+  </footer>
 
   <script src="Scripts/scripts.js"></script>
 </body>
