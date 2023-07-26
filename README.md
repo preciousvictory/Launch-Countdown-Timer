@@ -19,8 +19,11 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./Launch countdown timer.png)
-![](./Launch countdown timer- small screen.png)
+# This is the desktop view
+![]()
+
+# This is the phone view
+![]()
 
 ### Links
 
