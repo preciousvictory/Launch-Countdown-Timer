@@ -18,13 +18,17 @@ let countdown = setInterval(() => {
 
     let day = timeleft[0];
     document.querySelector(".a").textContent = day;
+    document.querySelector(".a").setAttribute("data-content", day);
 
     let hour = timeleft[1];
     document.querySelector(".b").textContent = hour;
+    document.querySelector(".b").setAttribute("data-content", hour);
 
     let min = timeleft[2];
     document.querySelector(".c").textContent = min;
+    document.querySelector(".c").setAttribute("data-content", min);
 
     let sec = timeleft[3];
     document.querySelector(".d").textContent = sec;
+    document.querySelector(".d").setAttribute("data-content", sec);
 }, 1000);

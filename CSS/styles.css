@@ -1,5 +1,10 @@
-* {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
+}
+
+* {
   margin: 0;
   padding: 0;
   font-family: "Red Hat Text", sans-serif;
@@ -9,10 +14,12 @@
   /* Primary */
   --Grayish_blue: hsl(237, 18%, 59%);
   --Soft_red: hsl(345, 95%, 68%);
+  --darker-soft-red: hsl(345, 95%, 60%);
 
   /* Neutral */
   --Dark_desaturated_blue: hsl(236, 21%, 26%);
   --Very_dark_blue: hsl(235, 16%, 14%);
+  --Very_dark__blue: hsl(240, 14%, 17%);
   --dark_mostly-black_blue: hsl(
     250.91,
     15.49%,
@@ -64,7 +71,6 @@ main {
 }
 
 .box h3 {
-  color: var(--Soft_red);
   font-size: 70px;
   font-weight: 700;
 }
@@ -78,9 +84,31 @@ main {
 }
 
 .timer {
-  background: var(--Dark_desaturated_blue);
+  background: linear-gradient(to bottom, var(--Very_dark__blue) 50%, var(--Dark_desaturated_blue) 50%);
+  box-shadow: 0px 6--px 2px rgba(26, 23, 31, 0.767);
   border-radius: 10px;
   padding: 30px;
+}
+
+.halfStyled {
+  position: relative;
+  font-size: 50px;
+  display: inline-block;
+  color: var(--Soft_red);
+  white-space: pre;
+  overflow: hidden;
+}
+
+.halfStyled:before {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  content: attr(data-content);
+  height: 52%;
+  overflow: hidden;
+  color: var(--darker-soft-red);
 }
 
 /* footer Styles 
