@@ -20,10 +20,10 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 ### Screenshot
 
 # This is the desktop view
-![]()
+![](Launch-countdown-timer-small-screen.png)
 
-# This is the phone view
-![]()
+# This is the mobile view
+![](Launch-countdown-timer.png)
 
 ### Links
 
