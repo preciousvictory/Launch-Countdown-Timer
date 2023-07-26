@@ -1,5 +1,5 @@
 // Adding the countdown functionality
-let eventDate = new Date('May 20, 2023 12:00:00').getTime(); // This is sample date - it can be changed
+let eventDate = new Date('Sep 24, 2023 12:00:00').getTime(); // This is sample date - it can be changed
 
 let countdown = setInterval(() => {
     let now = new Date().getTime(); 
