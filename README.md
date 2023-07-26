@@ -6,7 +6,6 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -18,18 +17,10 @@ This is a solution to the [Launch countdown timer challenge on Frontend Mentor](
 
 ## Overview
 
-### The challenge
-
-Users should be able to:
-
-- See hover states for all interactive elements on the page
-- See a live countdown timer that ticks down every second (start the count at 14 days)
-- When a number changes, the card flip from the middle
-
 ### Screenshot
 
-![](./mobileview.jpg)
-![](./desktopview.jpg)
+![](./Launch countdown timer.png)
+![](./Launch countdown timer- small screen.png)
 
 ### Links
 
